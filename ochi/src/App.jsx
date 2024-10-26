@@ -1,4 +1,5 @@
 import LandingPage from "./components/LandingPage"
+import Marquee from "./components/Marquee"
 import { Navbar } from "./components/Navbar"
 
 function App() {
@@ -8,7 +9,7 @@ function App() {
     <>
       <Navbar />
       <LandingPage />
-      
+      <Marquee />
     </>
   )
 }
