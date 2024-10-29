@@ -3,13 +3,13 @@ export function Cards() {
     <div>
 
         <div className="text-6xl font-semibold tracking-tighter px-8 mt-20 border-b w-full pb-8">
-            Client's reviews
+            Client&apos;s reviews
         </div>
 
         <div className="w-screen  p-10  flex">
-            <div className=" relative w-1/2  p-5 px-10">
+            <div className=" relative w-1/2  p-5">
                 
-                <Card bg_color="#004D43" txt="@2019-2024" txt_color="#CDEA68" img_url="assets/logo001.svg"/>
+                <Card bg_color="#004D43" txt="&copy;2019-2024" txt_color="#CDEA68" img_url="assets/logo001.svg"/>
 
             </div>
             <div className="w-1/2 h-h-[30vw] flex justify-center items-center gap-5 py-5"> 
@@ -38,14 +38,14 @@ function Card({ img_url, bg_color, txt_color, txt }) {
                     backgroundColor: "",
                     backgroundImage : `url(${img_url})`,
                     backgroundRepeat : "no-repeat",
-                    backgroundSize : "120px",
+                    backgroundSize : "10vw",
                     backgroundPosition : "center"
                 }}
                 >
                     
                 </div>
             </div>
-            <div className=" absolute bottom-7 left-5 border border-'#CDEA68' text-center rounded-full p-1 px-2 text-sm"
+            <div className=" absolute bottom-7 left-5 border border-'#CDEA68' text-center rounded-full p-[0.3vw] text-sm"
             style={{color:txt_color}}>
                 {txt}
             </div>

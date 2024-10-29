@@ -1,14 +1,25 @@
+import { motion } from "framer-motion"
+
+
 export default function LandingPage(){
     return (
-        <div className="w-screen h-screen">
+        <div data-scroll data-scroll-section data-scroll-speed="-0.2"  className="w-screen h-screen">
             <div className="mt-40 py-32  ml-8 h-4/5 border-b-2 font-spaceGrotesk">
                 <div>
                     {["we create","eye-opening","presentations"].map((item, index)=>{
                         return (
                         <div key="" className="masker">
                             <div className="flex items-center">
-                                {index == 1 && <div className="w-[8vw] h-[5.5vh]  bg-red-500 mt-1"></div>}
-                                <div className={`uppercase font-extrabold tracking-tighter text-[7vh] leading-[7vh]`}>{item}
+                                {index == 1 && (<motion.div
+                                initial= {{width:0}} animate={{width:100}} transition={{ease:[0.76, 0, 0.24, 1], duration:1}}
+                                className="w-[8vw] h-[5.4vw]  rounded-lg"
+                                style={{backgroundImage:`url("assets/landing.jpg")`,
+                                    backgroundSize : "cover",
+                                    backgroundPosition: "center",
+                                    backgroundRepeat:"no-repeat"
+                                }}
+                                ></motion.div>)}
+                                <div className={`uppercase font-extrabold tracking-tighter text-[7vw] leading-[7vh]`}>{item}
                                 </div>
                             </div>
                         </div>    

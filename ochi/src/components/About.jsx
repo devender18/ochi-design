@@ -2,7 +2,7 @@
 
 export default function About(){
     return (
-        <div className="bg-[#CDEA68] w-svh rounded-t-xl -mt-4">
+        <div  className="bg-[#CDEA68] w-svh rounded-t-xl -mt-4">
 
             {/* about desc */}
             <div className="border-b border-gray-400 flex justify-center items-center h-1/3 py-20">

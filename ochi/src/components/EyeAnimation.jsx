@@ -19,8 +19,8 @@ export function EyeAnimation(){
         })
     },[rotate])
     return (
-        <div className="w-screen h-screen">
-            <div className=" h-full w-full bg-[url('assets/eyejpg.jpg')] bg-center bg-cover relative">
+        <div  className="w-screen h-screen overflow-hidden">
+            <div data-scroll data-scroll-section data-scroll-speed="-0.7" className=" h-full w-full bg-[url('assets/eyejpg.jpg')] bg-center bg-cover  relative">
                 {/* red bg */}
                 <div className=" w-1/2 h-[20vw] flex justify-center items-center gap-10 absolute top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%]">
                     {/* first eye */}
