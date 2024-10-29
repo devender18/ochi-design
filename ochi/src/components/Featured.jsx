@@ -9,9 +9,9 @@ export function Featured(){
                 <div className="cards w-full mt-10 grid grid-cols-2 gap-10">
 
                     {/* card- 1 */}
-                    <div className="cardcontainer  h-[46vw]  ">
+                    <div className="cardcontainer relative h-[46vw]  ">
                         {/* img-1 */}
-                        <motion.div className="card relative bg-[url('/assets/Fyde.png')] bg-cover bg-center w-full h-full rounded-xl "
+                        <motion.div className="card  bg-[url('/assets/Fyde.png')] bg-cover bg-center w-full h-full rounded-xl "
                         whileHover={{scale:0.95}}
                         transition={{duration: 0.3, ease:"easeInOut",}}
                         >
@@ -23,10 +23,10 @@ export function Featured(){
                     </div>
 
                     {/* card- 2 */}
-                    <div className="cardcontainer   h-[46vw]  ">
+                    <div className="cardcontainer relative h-[46vw]  ">
                         {/* img-2 */}
                         <motion.div 
-                        className=" card relative bg-[url('/assets/Vise.jpg')] bg-cover bg-center w-full h-full rounded-xl "
+                        className=" card  bg-[url('/assets/Vise.jpg')] bg-cover bg-center w-full h-full rounded-xl "
                         whileHover={{scale:0.95}}
                         transition={{duration: 0.5}}
                         >
@@ -39,10 +39,10 @@ export function Featured(){
 
 
                     {/* card- 3 */}
-                    <div className="cardcontainer   h-[46vw]  ">
+                    <div className="cardcontainer relative h-[46vw]  ">
                         {/* img-3 */}
                         <motion.div 
-                       className=" card relative bg-[url('/assets/card-3.jpg')] bg-cover bg-center w-full h-full rounded-xl "
+                       className=" card  bg-[url('/assets/card-3.jpg')] bg-cover bg-center w-full h-full rounded-xl "
                         whileHover={{scale:0.95}}
                         transition={{duration: 0.5}}
                         >
@@ -55,16 +55,16 @@ export function Featured(){
                     
 
                     {/* card- 4 */}
-                    <div className="cardcontainer   h-[46vw]  ">
+                    <div className="cardcontainer relative h-[46vw]  ">
                         {/* img-4 */}
                         <motion.div 
-                        className=" card relative bg-[url('/assets/card-4.png')] bg-cover bg-center w-full h-full rounded-xl "
+                        className=" card  bg-[url('/assets/card-4.png')] bg-cover bg-center w-full h-full rounded-xl"
                         whileHover={{scale:0.95}}
                         transition={{duration: 0.5}}
                         >
-                            <div className=" text-6xl absolute left-0 top-1/2 -translate-x-[50%]  -translate-y-[50%]">
+                            {/* <div className=" text-6xl absolute left-0 top-1/2 -translate-x-[50%]  -translate-y-[50%]">
                                 PREMIUM BLEND
-                            </div>
+                            </div> */}
 
                         </motion.div>
                     </div>
